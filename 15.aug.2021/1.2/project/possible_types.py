@@ -1,0 +1,15 @@
+from project.baked_food.bread import Bread
+from project.baked_food.cake import Cake
+from project.drink.tea import Tea
+from project.drink.water import Water
+from project.table.inside_table import InsideTable
+from project.table.outside_table import OutsideTable
+
+food_types = {'Bread': Bread,
+              'Cake': Cake}
+
+drink_types = {'Tea': Tea,
+               'Water': Water}
+
+table_types = {'OutsideTable': OutsideTable,
+               'InsideTable': InsideTable}
